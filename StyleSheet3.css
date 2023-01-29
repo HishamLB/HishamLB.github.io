@@ -1,0 +1,183 @@
+﻿body {
+    background-image: url("https://img.freepik.com/free-vector/copy-space-wavy-white-background-layers_23-2148845469.jpg?w=2000");
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    background-size: 100% 100%;
+}
+
+.header {
+    background-color: rgb(193, 154, 230);
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+p, li {
+    font-size: 100%;
+    font-family: "Plus Jakarta Sans",Helvetica,sans-serif;
+    line-height: 1.6;
+}
+mark {
+    background-color: rgb(193, 154, 230);
+}
+
+h1 {
+    color: MidnightBlue;
+    font-family: Courier New;
+    font-size: 250%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    mix-blend-mode: multiply;
+}
+
+* {
+    box-sizing: border-box;
+    color: DarkBlue;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list li {
+    padding-left: 1rem;
+    text-indent: -0.75rem;
+}
+.list li::before {
+        content: '💪 ';
+  }
+
+.list2 {
+    list-style: square outside url('images/dumbell.png');
+    list-style-position: outside;
+}
+
+
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2, h3, h4, h5 {
+    font-family: Courier New;
+    font-size: 200%;
+    text-align: left;
+}
+#daystart {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 130%;
+    font-style: italic;
+}
+p {
+    color: DarkBlue;
+    text-align: left;
+}
+h6 {
+    color: DarkBlue;
+    font-family: "Plus Jakarta Sans",Helvetica,sans-serif;
+    font-size: 90%;
+    text-align: center;
+    font-weight: normal;
+}
+
+.toc_heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #192b80;
+}
+
+#fix_toc {
+    position: fixed;
+    left: 10px;
+    bottom: 70px;
+    padding: 15px;
+    background: #f2f4f6;
+    z-index: 9999;
+    max-width: 280px;
+    max-height: 70vh;
+    overflow-y: auto;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 20%);
+}
+
+ul.a {
+    list-style-type: none;
+}
+
+.widget_toc ul li {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 5px 10px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.item-h2 {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+a:link {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:visited, a:active {
+    text-decoration: none;
+    background-color: transparent;
+    color: -webkit-link;
+}
+
+a.two:link, a.two:visited, a.two:active {
+    color: darkblue;
+}
+
+a.back:hover {
+    text-shadow: -1px 0px 0px purple, 1px 0px 0px purple, 0px -1px 0px purple, 0px 1px 0px purple;
+}
+
+#button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(193, 154, 230);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#button:active {
+    background: MidnightBlue;
+ }
+

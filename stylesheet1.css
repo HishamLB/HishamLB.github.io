@@ -1,0 +1,138 @@
+﻿body {
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000t");
+    display: block;
+}
+
+#table1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+}
+
+* {
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.img1 {
+    height: 45%;
+    bottom: -10px;
+    left: -70px;
+}
+
+.img1, .img2 {
+    mix-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    position: absolute;
+}
+
+.img2 {
+    bottom: 8px;
+    right: 16px;
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    background-color: rgb(193, 154, 230);
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.header4 {
+    background-color: rgb(193, 154, 230);
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+a.one:link, a.one:visited {
+    background-color: rgb(202, 185, 218);
+    color: white;
+    border: 2px solid #e7e7e7;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.one:hover, a.one:active {
+    background-color: white;
+    color: MidnightBlue;
+}
+
+.header2 {
+    background-color: rgb(202, 185, 218);
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+
+.list li {
+    padding-left: 1rem;
+    text-indent: -0.75rem;
+}
+.list li::before {
+        content: '💪 ';
+  }
+.list1 li {
+     padding-left: 1rem;
+     text-indent: -0.75rem;
+}
+
+.list1 li::before {
+    content: '💪 ';
+}
+
+
+h1 {   
+    color: MidnightBlue;
+    font-family: Courier New;
+    font-size: 250%;
+    text-align: center;
+}
+
+p {
+    color: DarkBlue;
+    font-family: "Plus Jakarta Sans",Helvetica,sans-serif;
+    font-size: 100%;
+    text-align: left;
+    line-height: 1.6;
+}
+
+p, h2, ul {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+    
+h2 {
+    color: Navy;
+    font-family: Courier New;
+    font-size: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+ 
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2;
+    font-size: 100%;
+    font-family: "Source Serif Pro",Georgia,serif;
+
+}
